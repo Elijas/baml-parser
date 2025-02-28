@@ -1,0 +1,15 @@
+[project]
+name = "baml-parser"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "baml-py>=0.77.0",
+    "litellm[proxy]>=1.61.20",
+]
+
+[dependency-groups]
+dev = [
+    "notebook>=7.3.2",
+]

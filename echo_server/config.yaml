@@ -1,0 +1,8 @@
+model_list:
+  - model_name: "echo-model"
+    litellm_params:
+      model: "echo-provider/model"
+
+litellm_settings:
+  custom_provider_map:
+  - {"provider": "echo-provider", "custom_handler": echo_handler.echo_model}
