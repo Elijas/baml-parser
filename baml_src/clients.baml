@@ -3,6 +3,6 @@ client<llm> EchoModelClient {
   options {
     model "echo-model"
     base_url "http://localhost:8200"
-    api_key env.OPENAI_API_KEY
+    api_key ""
   }
 }
