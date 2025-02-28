@@ -17,7 +17,7 @@ It serves as a temporary workaround for [BAML Issue #1403](https://github.com/Bo
 # Setup
 
 1. [Install uv](https://docs.astral.sh/uv/getting-started/installation/), the python package manager
-2. start the OpenAI API compatible "echo" server:
+2. Start the OpenAI API compatible "echo" server:
 
 ```uv run litellm --config echo_server/config.yaml --host 127.0.0.1 --port 8200```
 
