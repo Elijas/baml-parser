@@ -46,13 +46,13 @@ from baml_client.type_builder import TypeBuilder
 #        items string[]
 #    }
 
-llm_response = """
+llm_completion = """
     Of course, I can help you with that. Here is a list of fruits:
     { count: 2.0,, "items": [banana, 'cherry'] }
     Let me know if you need anything else!
 """
 
-b.ParseFood(llm_response)
+b.ParseFood(llm_completion)
 ```
 
 
@@ -74,13 +74,13 @@ tb.add_baml("""
    }
 """)
 
-llm_response = """
+llm_completion = """
     Here is your answer:
     { price: 42,, "tags": new! }
     Let me know if you need anything else!
 """
 
-b.ParseCompletion(llm_response, {"tb": tb})
+b.ParseCompletion(llm_completion, {"tb": tb})
 ```
 
 
