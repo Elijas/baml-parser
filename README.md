@@ -48,7 +48,7 @@ from baml_client.type_builder import TypeBuilder
 
 llm_response = """
     Of course, I can help you with that. Here is a list of fruits:
-    { count: 3.0,, "items": [banana, 'cherry'] }
+    { count: 2.0,, "items": [banana, 'cherry'] }
     Let me know if you need anything else!
 """
 
@@ -58,7 +58,7 @@ b.ParseFood(llm_response)
 
 
 
-    Food(count=3, items=['banana', 'cherry'])
+    Food(count=2, items=['banana', 'cherry'])
 
 
 
