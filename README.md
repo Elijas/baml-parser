@@ -21,9 +21,9 @@ It serves as a temporary workaround for [BAML Issue #1403](https://github.com/Bo
 
 ```uv run litellm --config echo_server/config.yaml --host 127.0.0.1 --port 8200```
 
-3. Run this notebook with
+3. Run this notebook:
 
-```uv run notebook```
+```uv run python -m notebook README.ipynb```
 
 # Examples
 
@@ -98,5 +98,5 @@ b.ParseCompletion(llm_response, {"tb": tb})
 ```
 
     [NbConvertApp] Converting notebook README.ipynb to markdown
-    [NbConvertApp] Writing 2258 bytes to README.md
+    [NbConvertApp] Writing 2314 bytes to README.md
 

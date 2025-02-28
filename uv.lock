@@ -199,20 +199,12 @@ dependencies = [
     { name = "notebook" },
 ]
 
-[package.dev-dependencies]
-dev = [
-    { name = "notebook" },
-]
-
 [package.metadata]
 requires-dist = [
     { name = "baml-py", specifier = ">=0.77.0" },
     { name = "litellm", extras = ["proxy"], specifier = ">=1.61.20" },
     { name = "notebook", specifier = ">=7.3.2" },
 ]
-
-[package.metadata.requires-dev]
-dev = [{ name = "notebook", specifier = ">=7.3.2" }]
 
 [[package]]
 name = "baml-py"
