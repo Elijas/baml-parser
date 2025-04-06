@@ -1,3 +1,6 @@
+> [!IMPORTANT]  
+> **OBSOLETE** You can use the [Modular API](https://docs.boundaryml.com/guide/baml-advanced/modular-api) to achieve this much easier.
+
 # Overview
 
 This project demonstrates how to use the [BAML](https://www.boundaryml.com/) parser by itself, without requiring the full BAML ecosystem. This approach is ideal if you want to experiment with BAML's parsing capabilities while maintaining your current infrastructure.
